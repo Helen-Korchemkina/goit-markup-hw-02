@@ -1,0 +1,43 @@
+:root {
+  --primary-text-color: #757575;
+  --second-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  background: #ffffff;
+  color: var(--primary-text-color);
+}
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #000000;
+}
+.part-logo {
+  color: var(--accent-color);
+}
+.site-nav a {
+  color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.hero {
+  background-color: #2f303a;
+  color: var(--second-text-color);
+}
+.our-team {
+  background: #f5f4fa;
+}
+.footer {
+  background: #2f303a;
+}
+.footer a {
+  color: var(--second-text-color);
+}
