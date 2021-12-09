@@ -20,6 +20,10 @@ h3 {
 ul {
   list-style: none;
 }
+/*header*/
+.header a {
+  text-decoration: none;
+}
 /*logo*/
 .logo {
   color: var(--logo-black-color);
@@ -44,6 +48,13 @@ ul {
 .nav-adress a:hover {
   color: var(--accent-color);
 }
+.nav-adress a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
 .site-nav .link {
   color: var(--accent-color);
 }
@@ -63,19 +74,16 @@ ul {
 }
 /*excellence*/
 .excellence h2 {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .excellence p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 /*what we do*/
 .doing h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -90,15 +98,16 @@ ul {
 .our-team h2 {
   font-weight: 500;
 }
-.our-team p {
-  font-weight: 400;
-}
+
 /*footer*/
 .footer {
   background-color: var(--background-grey-color);
 }
 .footer a {
   color: var(--second-text-color);
+  text-decoration: none;
+}
+.footer-logo {
   font-family: Raleway, cursive;
   font-weight: 700;
   font-size: 26px;
@@ -117,6 +126,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus,
@@ -126,13 +136,11 @@ ul {
 }
 /*work-examples*/
 .work-examples h2 {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .work-examples p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
