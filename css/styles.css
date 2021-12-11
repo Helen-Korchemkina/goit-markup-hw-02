@@ -11,6 +11,7 @@ body {
   background-color: var(--second-text-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 h2,
@@ -39,7 +40,6 @@ ul {
 .site-nav a {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -50,7 +50,6 @@ ul {
 }
 .nav-adress a {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -74,12 +73,10 @@ ul {
 }
 /*excellence*/
 .excellence h2 {
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .excellence p {
-  font-size: 14px;
   line-height: 1.71;
 }
 /*what we do*/
@@ -115,7 +112,6 @@ ul {
 }
 .address a {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
 /*buttons*/
